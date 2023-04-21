@@ -97,8 +97,8 @@
     transition: transform 0.3s ease;
 }
 
-.nav::before {
-    background-color: var(--black);
+.header .nav::before {
+    background-color: var(--white);
 }
 
 .nav:hover::before {
