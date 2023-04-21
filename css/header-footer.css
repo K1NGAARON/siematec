@@ -39,8 +39,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 100px;
-    border-radius: 50%;
+    width: 150px;
 }
 
 .header .nav-logo {
@@ -79,13 +78,13 @@
     display: none;
 }
 
-.header .nav {
+.nav {
     position: relative;
     text-decoration: none;
     padding-bottom: 5px;
 }
 
-.header .nav::before {
+.nav::before {
     content: "";
     position: absolute;
     display: block;
@@ -98,15 +97,11 @@
     transition: transform 0.3s ease;
 }
 
-.header.active .nav::before {
+.nav::before {
     background-color: var(--black);
 }
 
-.header.active .row {
-    padding: 0 30px;
-}
-  
-.header .nav:hover::before {
+.nav:hover::before {
     transform: scaleX(1);
 }
 
