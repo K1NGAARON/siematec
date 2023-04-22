@@ -1,0 +1,67 @@
+.banner {
+    justify-content: center;
+    height: 80vh;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.banner h1,
+.banner p {
+    width: 60%;
+}
+
+.banner .overlay {
+    opacity: 0.8;
+}
+
+.contact .row .col:nth-child(1) {
+    flex: 1 0 60%;
+}
+
+.contact .row .col:nth-child(2) {
+    flex: 1 0 30%;
+}
+
+.contact .form-wrapper {
+    box-shadow: none;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--light-grey);
+    padding: 30px;
+    border-radius: var(--borderRadius);
+}
+
+.contact .container .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .container .box:nth-child(1) {
+    border-bottom: 1px solid #00000060;
+    padding-bottom: 40px;
+}
+
+.contact .container .box h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.contact .container .box .cta {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary);
+}
