@@ -25,3 +25,10 @@
 .banner .overlay {
     opacity: 0.8;
 }
+
+@media (max-width: 560px) {
+    .banner h1,
+    .banner p {
+        width: 100%;
+    }
+}
