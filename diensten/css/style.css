@@ -26,6 +26,11 @@
     opacity: 0.8;
 }
 
+.animated.wrapper {
+    width: 50%;
+    margin-top: 0;
+}
+
 @media (max-width: 560px) {
     .banner h1,
     .banner p {
