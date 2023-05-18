@@ -50,6 +50,7 @@
 
 .services .wrapper .item .nav {
     width: fit-content;
+    margin-top: auto;
 }
 
 .services .wrapper .item .nav::before {
