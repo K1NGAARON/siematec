@@ -93,6 +93,61 @@
     color: var(--secondary);
 }
 
+.cta-banner.section {
+    background-color: var(--primary);
+}
+
+.cta-banner.section .wrapper {
+    width: 100%;
+    align-items: center;
+}
+
+.cta-banner.section .item h5,
+.cta-banner.section .item a {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.cta-banner.section .item a {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+
+.steps.section .steps-wrapper {
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.steps.section .steps-wrapper .item {
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 30px;
+    border-radius: var(--borderRadius);
+}
+
+.steps.section .steps-wrapper .item .counter {
+    background-color: var(--secondary);
+    font-size: 30px;
+    font-weight: 700;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps.section .steps-wrapper .item h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 @media (max-width: 560px) {
     .banner h1,
     .banner p {
