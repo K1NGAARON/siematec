@@ -57,6 +57,27 @@
     background-color: var(--secondary);
 }
 
+.services .wrapper .item {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.services .wrapper .item i {
+    font-size: 50px;
+}
+
+.services .wrapper .item h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.services .wrapper .item .btn {
+    margin-top: auto;
+}
+
 @media (max-width: 560px) {
     .banner {
         height: fit-content;
