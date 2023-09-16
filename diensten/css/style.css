@@ -149,6 +149,10 @@
     font-weight: 700;
 }
 
+.content .image {
+    width: 100px;
+}
+
 @media (max-width: 560px) {
     .banner h1,
     .banner p {
