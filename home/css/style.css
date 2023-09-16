@@ -78,6 +78,10 @@
     margin-top: auto;
 }
 
+.services .image {
+    width: 100px;
+}
+
 @media (max-width: 560px) {
     .banner {
         height: fit-content;
