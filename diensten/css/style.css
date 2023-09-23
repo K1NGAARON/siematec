@@ -32,7 +32,7 @@
 }
 
 .content .wrapper .item {
-    flex: 1 0 25%;
+    flex: 1 0 20%;
     align-items: center;
     text-align: center;
     padding: 30px;
@@ -157,5 +157,9 @@
     .banner h1,
     .banner p {
         width: 100%;
+    }
+
+    .content .wrapper .item {
+        flex: 1 0 100%;
     }
 }
